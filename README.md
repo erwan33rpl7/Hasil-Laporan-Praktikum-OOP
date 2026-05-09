@@ -1,17 +1,17 @@
-#analisis 1
+# analisis 1
 Apa yang terjadi jika kamu mengubah hero1.hp menjadi 500 setelah baris
 hero1 = Hero...? Coba lakukan print(hero1.hp).
 
 setelah diubah tidak ada perubahan signifikan
 
-#analisis 2
+# analisis 2
 Perhatikan parameter lawan pada method serang. Parameter tersebut
 menerima sebuah objek utuh, bukan hanya string nama. Mengapa ini
 penting?
 
 hal ini penting karena jika suatu objek mau berinteraksi dengan objek lain maka dengan memakai objek utuhlah cara paling efektif
 
-#analisis 3
+# analisis 3
 • Eksperimen Fungsi super(): Pada class Mage, coba hapus (atau jadikan
 komentar #) baris kode super().__init__(name, hp, attack_power). Kemudian
 jalankan programnya.
@@ -39,7 +39,7 @@ Kamu mengisi formulir induk dulu (nama, hp, power)
 lalu mengisi formulir tambahan (mana)
 Semua data lengkap
 
-Tugas Analisis 4:
+# Tugas Analisis 4:
 1. Percobaan Hacking: Coba tambahkan baris kode berikut di bagian paling
 bawah (luar class):
 print(f"Mencoba akses paksa: {hero1._Hero__hp}")
@@ -67,7 +67,7 @@ validasi di setter adalah penjaga terakhir integritas data.
 Tanpa setter yang benar → data bisa jadi sampah
 → game bug → pemain marah → game gagal
 
-Tugas Analisis 5:
+# Tugas Analisis 5:
 1. Melanggar Kontrak: Pada class Hero, hapus (atau jadikan komentar #) seluruh
 blok method def serang(self, target):. Jalankan programnya.
 Pertanyaan: Error apa yang muncul? Jelaskan dengan bahasamu sendiri, apa arti
@@ -88,7 +88,7 @@ gameUnit bukan karakter nyata.
 gameUnit adalah cetakan / blueprint
 untuk memastikan semua karakter yang dibuat sudah lengkap dan siap dimainkan
 
-Tugas Analisis 6:
+# Tugas Analisis 6:
 1. Uji Skalabilitas (Kemudahan Menambah Fitur): Tanpa mengubah satu huruf
 pun pada kode Looping (for pahlawan in pasukan:), buatlah satu class
 baru bernama Healer(Hero).
